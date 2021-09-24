@@ -1,6 +1,6 @@
 # Sample code to demo trusted self-signed cert in IIS
 
-Foobar is a Python library for dealing with word pluralization.
+Self-signed certs are not trusted by the browsers because the browser cannot validate its authenticaity as it is not signed by any valid CAs
 
 ## Pre-requisites
 1. OpenSSL

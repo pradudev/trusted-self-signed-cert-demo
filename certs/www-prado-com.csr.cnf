@@ -1,0 +1,14 @@
+[req]
+default_bits = 2048
+prompt = no
+default_md = sha256
+distinguished_name = dn
+
+[dn]
+C=AU
+ST=VIC
+L=MEL
+O=Prado Pty Ltd
+OU=Marketing
+emailAddress=admin@techforum.com
+CN = www.prado.com

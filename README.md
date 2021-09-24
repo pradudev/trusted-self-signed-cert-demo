@@ -1,6 +1,6 @@
 # Sample code to demo trusted self-signed cert in IIS
 
-Self-signed certs are not trusted by the browsers because the browser cannot validate its authenticaity as it is not signed by any valid CAs
+Self-signed certs are not trusted by the browsers because the browser cannot validate its authenticity as it is not signed by any valid CAs. If we create our own Root CA cert and install it on the server and then create a cert signed by our root CA then that cert will be shown valid on that server.
 
 ## Pre-requisites
 1. OpenSSL
